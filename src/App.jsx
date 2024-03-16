@@ -4,6 +4,7 @@ import Codingninjas from './components/Codingninjas'
 import Linkedin from './components/Linkedin'
 import Twitter from './components/Twitter'
 import Gitub from './components/Gitub'
+import Portfolio from './components/Portfolio'
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         />
     </div>
       <div className='p-2 ml-64 mr-64 mt-10 rounded-xl'>
-        {/* <Profile profile = "PORTFOLIO WEBSITE" />         */}
+        <Portfolio profile = "PORTFOLIO WEBSITE" />        
         <Profile profile = "LEETCODE ACCOUNT" />        
         <Codingninjas profile = "CODING  NINJAS ACC" />        
         <Linkedin profile = "LINKEDIN  PROFILE" />
